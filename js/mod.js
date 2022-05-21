@@ -1,6 +1,6 @@
 var mod = {
-    primaryName: "ω",
-    secondaryName: "Engine",
+    primaryName: "Never",
+    secondaryName: "end-Layers",
     version: "1.0.0",
     engineVer: "0.2.3 P1", //DO NOT MODIFY
     debugMode: true,
@@ -10,13 +10,14 @@ var mod = {
         ["Neon", "css/themes/neon.css"],
         ["Godot Blue", "css/themes/darkblue.css"],
         ["Halloween", "css/themes/spooky.css"],
-        ["eXPerience", "css/themes/experience.css"]
+        ["eXPerience", "css/themes/experience.css"],
+        ["Blue/Cyan Neon", "css/themes/blueneon.css"]
     ],
     layerNames: [
         ["Ω-Lλγers",
         [
-            "αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ",
-            "ψϝϛͱϻϙͳϸ",
+            "NEVERENDLESSNEVERENDINGNEVEREND",
+            "SMUHTPEZY",
             ["<span class='flipped-v'>Ω</span>", "<span class='flipped-v'>Ω</span><sup>2</sup>","<span class='flipped-v'>Ω</span><sup>3</sup>","<span class='flipped-v'>Ω</span><sup>2<sup>2</sup></sup>"]
         ]],
         ["Alphabet",

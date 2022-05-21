@@ -80,7 +80,7 @@ class AlephLayer
     {
         if(this.isUnlocked())
         {
-            this.aleph = this.aleph.add(this.getAlephGain().mul(dt));
+            this.aleph = new Decimal (game.layers.length);
         }
     }
 
