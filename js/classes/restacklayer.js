@@ -63,7 +63,7 @@ class ReStackLayer
                         maxLevel: 1,
                         getEffectDisplay: effectDisplayTemplates.numberStandard(2, "^")
                     }),
-                new RestackLayerUpgrade("Resource Multiplier Upgrades are stronger based on time spent this ReStack",
+                new RestackLayerUpgrade("Resource Multiplier Upgrades are stronger based on time spent this Re-End",
                 level => new Decimal(1e50),
                 level => new Decimal(1).add(Decimal.pow(2, level).sub(1).mul(this.timeSpent / 1000)),{
                         maxLevel: 1,
@@ -120,7 +120,7 @@ class ReStackLayer
                     }),
             ],
             [
-                new RestackLayerUpgrade("Time since ReStack no longer resets",
+                new RestackLayerUpgrade("Time since Re-end no longer resets",
                     level => new Decimal("1ee100"),
                     level => level.gt(0), {
                         maxLevel: 1,
@@ -235,7 +235,7 @@ class ReStackLayer
 
     respecUpgradeTree()
     {
-        if(game.settings.confirmations && !confirm("Are you sure you want to respec? This will do a ReStack without reward and you won't get any Layer Coins back."))
+        if(game.settings.confirmations && !confirm("Are you sure you want to respec? This will do a Re-End without reward and you won't get any Never Coins back."))
         {
             return;
         }
@@ -251,7 +251,7 @@ class ReStackLayer
 
     restack(reward = true)
     {
-        if(reward && game.settings.confirmations && !confirm("Are you sure you want to ReStack? You will lose all progress in exchange for Layer Coins."))
+        if(reward && game.settings.confirmations && !confirm("Are you sure you want to Re-End? You will lose all progress in exchange for Never Coins."))
         {
             return;
         }
@@ -293,7 +293,7 @@ class ReStackLayer
     {
         this.restack(false);
         game.metaLayer.active = true;
-        functions.createNotification(new Notification(NOTIFICATION_SPECIAL, "Meta has given you infinite power, its time to make more layers!"));
+        functions.createNotification(new Notification(NOTIFICATION_SPECIAL, "Neverending has given you infinite power, its time to make more layers!"));
     }
 
     tick(dt)
