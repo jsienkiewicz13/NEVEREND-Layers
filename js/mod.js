@@ -11,6 +11,7 @@ var mod = {
         ["Godot Blue", "css/themes/darkblue.css"],
         ["Halloween", "css/themes/spooky.css"],
         ["eXPerience", "css/themes/experience.css"]
+        ["Blue/Cyan Neon", "css/themes/blueneon.css"]
     ],
     layerNames: [
         ["Ω-Lλγers",
