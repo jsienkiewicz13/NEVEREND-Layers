@@ -16,8 +16,8 @@ var mod = {
     layerNames: [
         ["Ω-Lλγers",
         [
-            "αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ",
-            "ψϝϛͱϻϙͳϸ",
+            "NEVERENDLESSNEVERENDINGNEVEREND",
+            "SMUHTPEZY",
             ["Ʊ", "Ʊ<sup>2</sup>","Ʊ<sup>3</sup>","Ʊ<sup>2<sup>2</sup></sup>"]
         ]],
         ["Alphabet",
