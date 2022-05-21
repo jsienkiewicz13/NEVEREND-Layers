@@ -2,7 +2,7 @@ var mod = {
     primaryName: "Never",
     secondaryName: "end-Layers",
     version: "1.0.0",
-    engineVer: "0.2.3", //DO NOT MODIFY
+    engineVer: "0.2.3 P1", //DO NOT MODIFY
     debugMode: true,
     themes: [
         ["Dark", "css/themes/dark.css"],
@@ -18,7 +18,7 @@ var mod = {
         [
             "NEVERENDLESSNEVERENDINGNEVEREND",
             "SMUHTPEZY",
-            ["Ʊ", "Ʊ<sup>2</sup>","Ʊ<sup>3</sup>","Ʊ<sup>2<sup>2</sup></sup>"]
+            ["<span class='flipped-v'>Ω</span>", "<span class='flipped-v'>Ω</span><sup>2</sup>","<span class='flipped-v'>Ω</span><sup>3</sup>","<span class='flipped-v'>Ω</span><sup>2<sup>2</sup></sup>"]
         ]],
         ["Alphabet",
         [
