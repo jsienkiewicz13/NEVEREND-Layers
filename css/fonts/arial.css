@@ -1,8 +1,0 @@
-@font-face{
-    font-family: arial-font;
-    src: url('../../fonts/arial.ttf');
-}
-
-:root{
-    --primary-font: arial-font
-}
