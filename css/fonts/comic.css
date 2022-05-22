@@ -1,8 +1,0 @@
-@font-face{
-    font-family: comic-sans;
-    src: url('../../fonts/comic.ttf');
-}
-
-:root{
-    --primary-font: comic-sans
-}

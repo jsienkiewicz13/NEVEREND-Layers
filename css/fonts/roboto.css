@@ -1,8 +1,0 @@
-@font-face{
-    font-family: roboto;
-    src: url('../../fonts/roboto.ttf');
-}
-
-:root{
-    --primary-font: roboto
-}
