@@ -3,16 +3,16 @@ Vue.component("news-ticker", {
     {
         return {
             messages: [
-                "modding.net",
-                "layer name moment",
-                "weird themes",
-                "hey, you could make a mod out of this",
-                "when the imp- oh wrong mod",
-                "basically there is a thi- (softcapped)",
-                "incremental thing i guess",
-                "omega layers but steam engine",
-                "mod.js: powering layers",
-                "i ran out of words on my hard drive :("
+                "[ Important ] Subscribe To NEVEREND",
+                "Useless Ticker",
+                "Blue/Cyan Neon Finally Exists!",
+                "Sussy-Layers Is Kinda Sus (Got Into Among Us Stuff)",
+                "NEVERENDINGLESSNEVERENDINGNEVEREND",
+                "ERROR404",
+                "Neverend-Layers Is Kinda Coo- (Promoted Into Co-Owner Of This Game)",
+                "omega layers but Neverend's Version",
+                "mod.js: The Most Powerful Modding Tool",
+                ":( Your Computer Has Ran Into A Problem Please Finish This Game To Fix It"
             ],
             currentMessage: "",
             messageIndex: -1
