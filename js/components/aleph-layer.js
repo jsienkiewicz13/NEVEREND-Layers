@@ -21,14 +21,14 @@ Vue.component("aleph-layer", {
     },
     template: `<div class="aleph-layer">
 <div class="resource">
-    <p>You have {{formatNumber(aleph.aleph, 2, 2, 1e9)}} <span class="aleph">NC</span></p>
+    <p>You have {{formatNumber(aleph.aleph, 2, 2, 1e9)}} <img alt="NC" class="inline" src="images/N-Coin.png"/></p>
 </div>
 <div class="boosts">
     <div v-if="canProduceAleph">
-        <p>Your highest Layer is <resource-name :layerid="highestLayer()"></resource-name>, translated to a x{{formatNumber(aleph.getAlephBoostFromLayer(), 2, 2)}} Boost on <span class="aleph">NC</span> gain</p>
+        <p>Your highest Layer is <resource-name :layerid="highestLayer()"></resource-name>, which providing you {{formatNumber(aleph.aleph, 2, 2)}} <img alt="NC" class="inline" src="images/N-Coin.png"/></p>
     </div>
     <div v-else>
-        <p>You need to go <resource-name :layerid="3"></resource-name> at least once to get <span class="aleph">ℵ</span></p>
+        <p>You need to go <resource-name :layerid="3"></resource-name> at least once to get <img alt="NC" class="inline" src="images/N-Coin.png"/></p>
     </div>
 </div>
 <div class="tabs">

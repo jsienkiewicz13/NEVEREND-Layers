@@ -58,13 +58,12 @@ class AlephLayer
 
     isUnlocked()
     {
-        return game.highestLayer >= 3;
+        return game.highestLayer >= 0;
     }
 
     getAlephBoostFromLayer()
     {
-        if(functions.maxLayerUnlocked() < 3) return new Decimal(0);
-        if(game.layers[3].timesReset === 0) return new Decimal(0);
+        if(functions.maxLayerUnlocked() < 0) return new Decimal(0);
         return Decimal.pow(10, Math.max(0, functions.maxLayerUnlocked() - 3));
     }
 
