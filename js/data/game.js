@@ -91,7 +91,7 @@ const game = {
     },
     achievements: [
         new Achievement("You played!", "If you dont have this, you shouldn't exist", "N", () => true),
-        new Achievement("Neverend coins", "Start gaining neverend coins", "NC", () => game.alephLayer.isUnlocked()),
+        new Achievement("Neverend coins", "Start gaining neverend coins", "<img alt=\"NC\" class=\"inline\" src=\"images/N-Coin.svg\"/>", () => game.alephLayer.isUnlocked()),
         new Achievement("Re-Ending up!", "Do a Re-end!", "<img alt=\"LC\" class=\"inline\" src=\"images/layercoin.svg\"/>", () => game.restackLayer.timesReset > 0),
         new Achievement("The speedup cycles", "SPEEDING UP CYCLE", "↺", () => game.metaLayer.getLayersPS().gte("1e308")),
     ],

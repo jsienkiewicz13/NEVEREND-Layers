@@ -37,7 +37,7 @@
             <div>
                 <layer-locked-button v-if="!isMeta && isLayerCategory === 'Layers'" @click="settings.tab = 'Automators'" :layerid="1"><img alt="Au" class="inline" src="images/hardware-chip.svg"/> Automators</layer-locked-button>
                 <layer-locked-button v-if="!isMeta && isLayerCategory === 'Layers'" @click="settings.tab = 'Volatility'" :layerid="2"><img alt="V" class="inline" src="images/save.svg"/> Volatility</layer-locked-button>
-                <layer-locked-button v-if="!isMeta && isLayerCategory === 'Layers'" @click="settings.tab = 'Aleph'" :layerid="3"><span class="aleph">ℵ</span> Aleph</layer-locked-button>
+                <layer-locked-button v-if="!isMeta && isLayerCategory === 'Layers'" @click="settings.tab = 'Aleph'" :layerid="3"><img alt="NC" class="inline" src="images/layercoin.png"/> Neverend Coins</layer-locked-button>
                 <layer-locked-button v-if="isLayerCategory === 'Layers'" @click="settings.tab = 'ReStack'" :layerid="9"><img alt="R" class="inline" src="images/layercoin.png"/> Re-End</layer-locked-button>
                 <button v-if="isLayerCategory === 'Guide'" @click="settings.tab = 'Changelog'"><img alt="C" class="inline" src="neverendlayers.png"> Changelog</button>
                 <button v-if="isLayerCategory === 'Guide'" @click="settings.tab = 'Engine Changelog'"><img alt="EC" class="inline" src="https://jwklong.github.io/omega-engine/favicon.png"> Engine Changelog</button>
