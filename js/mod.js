@@ -14,17 +14,17 @@ var mod = {
         ["Blue/Cyan Neon", "css/themes/blueneon.css"]
     ],
     layerNames: [
-        ["Ω-Lλγers",
+        ["NEVEREND-LAYERS",
         [
             "NEVERENDLESSNEVERENDINGNEVEREND",
             "SMUHTPEZY",
             ["<span class='flipped-v'>Ω</span>", "<span class='flipped-v'>Ω</span><sup>2</sup>","<span class='flipped-v'>Ω</span><sup>3</sup>","<span class='flipped-v'>Ω</span><sup>2<sup>2</sup></sup>"]
         ]],
-        ["Alphabet",
+        ["ABSOLUTE-NEVEREND",
         [
-            "abcdefghijklmnopqrstuvwxyz",
-            "123456789",
-            "ABCD"
+            "NEVERENDINGLESSNEVERENDLESSNEVERENDINGNEVEREND",
+            "NEVEREND",
+            "NEVERENDINGLESS"
         ]],
         ["Symbols",
         [
